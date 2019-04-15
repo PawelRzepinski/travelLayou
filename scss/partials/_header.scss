@@ -1,0 +1,25 @@
+.mainHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background: none;
+    z-index: 10;
+
+    .menuBtn {
+        background: none;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+        border-radius: 10px;
+
+        span {
+            display: block;
+            border-bottom: 1px solid rgba (255, 255, 255, 0.7);
+        }
+    }
+}
