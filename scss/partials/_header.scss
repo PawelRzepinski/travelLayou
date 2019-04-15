@@ -1,5 +1,5 @@
 .mainHeader {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -10,16 +10,27 @@
     z-index: 10;
 
     .menuBtn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         background: none;
         padding: 10px 20px;
         text-transform: uppercase;
+        color: white;
         cursor: pointer;
         border: 2px solid rgba(255, 255, 255, 0.4);
         border-radius: 10px;
-
-        span {
-            display: block;
-            border-bottom: 1px solid rgba (255, 255, 255, 0.7);
-        }
     }
+
+    .menuBtnLines span{
+        display: block;
+        margin: 3px 0 0 10px;
+        width: 20px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.7);
+    }
+
+    .menuBtnLines span:first-child {
+        margin-top: 0;
+    }
+
 }
