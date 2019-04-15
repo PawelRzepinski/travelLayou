@@ -1,0 +1,12 @@
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    .articleContent {
+        align-items: flex-start;
+
+        p {
+            text-align: start;
+        }
+    }
+}
