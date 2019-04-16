@@ -1,0 +1,49 @@
+.article {
+    background-color: #2E3141;
+    color: white;
+
+    h2 { 
+        margin-bottom: 40px;
+    }
+
+    p {
+        position: relative;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: -20px;
+            width: 100%;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+            line-height: 1.2em;
+        }
+    }
+}
+
+.box {
+    height: 550px;
+    width: 100%;
+    background-color: #353849;
+    border-radius: 25px;
+
+}
+
+.boxImg {
+    height: 50%;
+    width: 100%;
+
+    img {
+        height: 100%;
+        width: 100%;
+        border-radius: 25px 25px 0 0;
+    }
+}
+
+.boxContent {
+    padding: 30px;
+
+    p {
+        margin-bottom: 60px;
+    }
+}
