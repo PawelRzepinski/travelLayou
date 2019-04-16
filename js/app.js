@@ -1,9 +1,9 @@
 
-//     // parallax
+    // parallax
 
-//     $(window).scroll(function () {
-//         $("body").css("background-position","50% " + ($(this).scrollTop() / 2) + "px");
-//     });
+    $(window).scroll(function () {
+        $("body").css("background-position","50% " + ($(this).scrollTop() / 2) + "px");
+    });
 
 //     // menu
 // $(function(){
