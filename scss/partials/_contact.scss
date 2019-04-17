@@ -1,15 +1,21 @@
-.bgImg {
-    background-image: url(../img/mountains-parralax.jpg);
-    height: 700px;
-}
-
-
-
-
-
 .contact {
     background: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
     margin: 200px 0;
+    color: white;
+
+    p {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    p:before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 100%;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+    }
 }
 
 .contactForm {
@@ -19,7 +25,64 @@
     form {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        color: white;
+
+        input {
+            height: 40px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            background: rgba(62, 64, 78, 0.4);
+            margin: 10px 0 30px;
+        }
+
+        #sendBtn {
+            width: auto;
+            color: white;
+            padding: 10px 20px;
+        }
     }
 }
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactList {
+    display: list-item;
+    justify-content: center;
+    list-style: none;
+
+    li {
+        position: relative;
+        text-decoration: none;
+        margin: 3.1em 0 0 0;
+        padding: 0 0 0 3.25em;
+
+        i {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+        }   
+    }
+}
+
+.adress i {
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
