@@ -1,0 +1,25 @@
+.bgImg {
+    background-image: url(../img/mountains-parralax.jpg);
+    height: 700px;
+}
+
+
+
+
+
+.contact {
+    background: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8));
+    margin: 200px 0;
+}
+
+.contactForm {
+   
+    width: 100%;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

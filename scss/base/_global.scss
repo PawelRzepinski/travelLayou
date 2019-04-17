@@ -1,10 +1,8 @@
 body {
     background-image: url(../img/mountains-parralax.jpg);
-    background-repeat: repeat;
-    background-position: 50% 0;    
-    min-height: 1000px;
-    font-family: sans-serif;
-    height: 300vh;
+    background-size: auto, cover;
+    background-attachment: fixed, fixed;
+    background-position: center, center;
 }
 
 section {
