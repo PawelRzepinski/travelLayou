@@ -37,13 +37,22 @@
             border-radius: 10px;
             border: 2px solid rgba(255, 255, 255, 0.4);
             background: rgba(62, 64, 78, 0.4);
+            color: white;
             margin: 10px 0 30px;
+            padding: 0 10px;
         }
+
+        textarea{
+            padding: 20px;
+        }
+
+        
 
         #sendBtn {
             width: auto;
             color: white;
             padding: 10px 20px;
+            cursor: pointer;
         }
     }
 }
