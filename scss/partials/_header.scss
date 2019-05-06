@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 10px;
     background: none;
     z-index: 10;
@@ -33,4 +33,12 @@
         margin-top: 0;
     }
 
+    .mainLogo {
+        color: white;
+        margin-left: 50px;
+
+        p {
+            display: none;
+        }
+    }
 }
